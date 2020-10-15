@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  become: yes
+  tasks:
+  - copy: dest=/root/pull.txt content="I am V1"
+
